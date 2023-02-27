@@ -1,0 +1,24 @@
+.mainContainer {
+    display: flex;
+}
+
+.heading {
+    font-weight: "bold";
+    margin-bottom: 20;
+    font-family: "Montserrat";
+}
+
+@media(max-width : 952.5px) {
+    .mainContainer{
+        flex-direction: column ;
+        align-items: center;
+    }
+
+    .sidebarStyling {
+        width: 100%;
+    }
+}
+
+.extraLarge {
+    font-size: 200px;
+}
